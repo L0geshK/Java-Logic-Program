@@ -12,7 +12,7 @@ import java.util.LinkedHashMap;
 		private static String replaceDuplicate(String input) {
 			input = input.toLowerCase();
 			StringBuilder result = new StringBuilder();
-			 LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
+			 LinkedHashMap<Character, Integer> map = new LinkedHashMap<>(); 
 			for (char Character : input.toCharArray()) {
 				map.put(Character, map.getOrDefault(Character, 0) + 1);
 			}
