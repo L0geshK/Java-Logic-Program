@@ -24,7 +24,7 @@ public class ReverseArray {
 	}
 
 	public static void reverseArrayTwoPointer() {
-		int a[] = { 20, 30, 40, 50, 60 };
+		int a[] = { 70, 30, 40, 50, 60 };
 		int left = 0;
 		int right = a.length - 1;
 		int temp;
