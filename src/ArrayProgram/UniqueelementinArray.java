@@ -7,9 +7,12 @@ public class UniqueelementinArray {
 	public static void main(String[] args) {
 		withcollectionSet();
 		withoutCollection();
+	
 		
 		
 	}
+
+	
 
 	public  static void withoutCollection() {
 		
