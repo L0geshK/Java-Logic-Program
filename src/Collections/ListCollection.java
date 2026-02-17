@@ -1,21 +1,18 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ListCollection {
 	public static void main(String[] args) {
-		List al = new ArrayList();
-		al.add("Logesh");
-		al.add(23);
-		al.add(55);
-		System.out.println(al);
-		al.add(3,"Kanna");
-		System.out.println(al);
-		al.remove(0);
-		System.out.println(al);
-		al.set(0, "logesh");
-		System.out.println(al);
+	Map<String,Integer>map = new HashMap<String, Integer>();
+	map.put("Logesh", 100);
+	map.put("Logesh", 2000);	
+	map.put("Kanna", 200);
+	
+	System.out.println(map.keySet());
+	
+	
 		
 	}
 
