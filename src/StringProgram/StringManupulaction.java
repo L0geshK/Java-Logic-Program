@@ -2,7 +2,11 @@ package StringProgram;
 
 public class StringManupulaction {
     public static void main(String[] args) {
+    	
+    	
+    	
 
+    	//we need to add "-" after the same number repert twise
         String input = "8995277";
         StringBuilder result = new StringBuilder();
 
